@@ -7,7 +7,8 @@ class Person {
 		return this._name;
 	}
 	set age(age) {
-		return this._age;
+		//return this._age;
+		this._age = age;
 	}
 }
 class Student extends Person {
