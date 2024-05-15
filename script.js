@@ -1,14 +1,14 @@
 class Person {
 	constructor(name, age) {
 		this.newName = name;
-		this.newAge = age;
+		this._newAge = age;
 	}
 	get name(){
 		return this.newName;
 	}
 	set age(age) {
 		//return this._age;
-		this.newAge = age;
+		this._newAge = age;
 	}
 }
 class Student extends Person {
